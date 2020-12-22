@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f1f1f1;
+}
+.container{
+    width: 100%;
+    /* background-color: navy; */
+    position: absolute;
+    top:45%;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #000;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:#000;
+    background-color: #cacaca;
+}
+.banner{
+    background-image: url("../images/Capture.PNG");
+    text-align: center;
+    padding:150px;
+    position: relative;
+}
+.banner h1{
+    color:#fff;
+    font-size: 2.2rem;
+}
+.banner > p{
+    color:#fff;
+}
+.center{
+    width: 95%;
+    /* background-color: orange; */
+    margin:0 auto;
+}
+.center-one{
+    width: 80%;
+    /* background-color: orchid; */
+    margin:0 auto;
+}
+.row{
+    overflow: hidden;
+}
+.box{
+    width: calc(25% - 10px);
+    float: left;
+    background-color: #fff;
+    margin:5px;
+}
+.fakeimg{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.btn{
+    margin-top:20px;
+    text-align: center;
+}
+button{
+    padding:5px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    background-color: skyblue;
+}
+@media(max-width:800px){
+    .container{
+        margin-left: 20px;
+    }
+    .box{
+        width: 40%;
+    }
+}
+@media(max-width:400px){
+    .navbar a{
+        width: 100%;
+        float:none;
+    }
+}
